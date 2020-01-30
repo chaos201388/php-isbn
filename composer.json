@@ -1,0 +1,30 @@
+{
+    "name": "chaosbot/isbn",
+    "type": "library",
+    "description": "The PHP library for validating ISBN-13 number",
+    "keywords": [
+        "ISBN-13"
+    ],
+    "authors": [
+        {
+            "name": "chaos201388",
+            "homepage": "https://github.com/chaos201388"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chaosbot\\ISBN\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chaosbot\\ISBN\\Tests\\": "tests/"
+        }
+    }
+}
